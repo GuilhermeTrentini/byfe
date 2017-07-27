@@ -1,0 +1,25 @@
+{
+  "name": "ByFe",
+  "description": "Site ByFe",
+  "main": "index.html",
+  "authors": [
+    "André Timm"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "site"
+  ],
+  "homepage": "",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "^3.3.7"
+  }
+}
