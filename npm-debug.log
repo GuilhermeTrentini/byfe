@@ -1,0 +1,225 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install' ]
+2 info using npm@3.10.10
+3 info using node@v6.11.0
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly install normalizeTree
+8 silly loadCurrentTree Finishing
+9 silly loadIdealTree Starting
+10 silly install loadIdealTree
+11 silly cloneCurrentTree Starting
+12 silly install cloneCurrentTreeToIdealTree
+13 silly cloneCurrentTree Finishing
+14 silly loadShrinkwrap Starting
+15 silly install loadShrinkwrap
+16 silly loadShrinkwrap Finishing
+17 silly loadAllDepsIntoIdealTree Starting
+18 silly install loadAllDepsIntoIdealTree
+19 silly fetchNamedPackageData browser-sync
+20 silly mapToRegistry name browser-sync
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: 'browser-sync',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: 'browser-sync',
+23 silly mapToRegistry   name: 'browser-sync',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/browser-sync
+25 silly fetchNamedPackageData gulp
+26 silly mapToRegistry name gulp
+27 silly mapToRegistry using default registry
+28 silly mapToRegistry registry https://registry.npmjs.org/
+29 silly mapToRegistry data Result {
+29 silly mapToRegistry   raw: 'gulp',
+29 silly mapToRegistry   scope: null,
+29 silly mapToRegistry   escapedName: 'gulp',
+29 silly mapToRegistry   name: 'gulp',
+29 silly mapToRegistry   rawSpec: '',
+29 silly mapToRegistry   spec: 'latest',
+29 silly mapToRegistry   type: 'tag' }
+30 silly mapToRegistry uri https://registry.npmjs.org/gulp
+31 verbose request uri https://registry.npmjs.org/browser-sync
+32 verbose request no auth needed
+33 info attempt registry request try #1 at 17:10:59
+34 verbose request id 585668b673d64af8
+35 http request GET https://registry.npmjs.org/browser-sync
+36 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy-matriz.sp01.local proxy-matriz.sp01.local:8080
+37 verbose request uri https://registry.npmjs.org/gulp
+38 verbose request no auth needed
+39 info attempt registry request try #1 at 17:10:59
+40 verbose etag "ANQJSMJZY9EQJT2LIE8LNVL28"
+41 http request GET https://registry.npmjs.org/gulp
+42 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy-matriz.sp01.local proxy-matriz.sp01.local:8080
+43 info attempt registry request try #2 at 17:11:09
+44 http request GET https://registry.npmjs.org/browser-sync
+45 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy-matriz.sp01.local proxy-matriz.sp01.local:8080
+46 info attempt registry request try #2 at 17:11:09
+47 verbose etag "ANQJSMJZY9EQJT2LIE8LNVL28"
+48 http request GET https://registry.npmjs.org/gulp
+49 info retry will retry, error on last attempt: Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy-matriz.sp01.local proxy-matriz.sp01.local:8080
+50 info attempt registry request try #3 at 17:12:09
+51 http request GET https://registry.npmjs.org/browser-sync
+52 silly fetchPackageMetaData Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy-matriz.sp01.local proxy-matriz.sp01.local:8080
+52 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+52 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+52 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+52 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+52 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+52 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+52 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+52 silly fetchPackageMetaData     at connectErrorNT (net.js:1021:8)
+52 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+52 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9)
+52 silly fetchPackageMetaData  error for browser-sync@^2.18.13 { Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy-matriz.sp01.local proxy-matriz.sp01.local:8080
+52 silly fetchPackageMetaData     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+52 silly fetchPackageMetaData     at ClientRequest.g (events.js:292:16)
+52 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+52 silly fetchPackageMetaData     at ClientRequest.emit (events.js:188:7)
+52 silly fetchPackageMetaData     at Socket.socketErrorListener (_http_client.js:309:9)
+52 silly fetchPackageMetaData     at emitOne (events.js:96:13)
+52 silly fetchPackageMetaData     at Socket.emit (events.js:188:7)
+52 silly fetchPackageMetaData     at connectErrorNT (net.js:1021:8)
+52 silly fetchPackageMetaData     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+52 silly fetchPackageMetaData     at process._tickCallback (internal/process/next_tick.js:104:9) code: 'ECONNRESET' }
+53 info attempt registry request try #3 at 17:12:09
+54 verbose etag "ANQJSMJZY9EQJT2LIE8LNVL28"
+55 http request GET https://registry.npmjs.org/gulp
+56 silly get cb [ 304, undefined ]
+57 verbose etag https://registry.npmjs.org/gulp from cache
+58 verbose get saving gulp to C:\Users\guilherme.trentini\AppData\Roaming\npm-cache\registry.npmjs.org\gulp\.cache.json
+59 verbose correctMkdir C:\Users\guilherme.trentini\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+60 silly resolveWithNewModule gulp@3.9.1 checking installable status
+61 silly cache add args [ 'gulp@^3.9.1', null ]
+62 verbose cache add spec gulp@^3.9.1
+63 silly cache add parsed spec Result {
+63 silly cache add   raw: 'gulp@^3.9.1',
+63 silly cache add   scope: null,
+63 silly cache add   escapedName: 'gulp',
+63 silly cache add   name: 'gulp',
+63 silly cache add   rawSpec: '^3.9.1',
+63 silly cache add   spec: '>=3.9.1 <4.0.0',
+63 silly cache add   type: 'range' }
+64 silly addNamed gulp@>=3.9.1 <4.0.0
+65 verbose addNamed ">=3.9.1 <4.0.0" is a valid semver range for gulp
+66 silly addNameRange { name: 'gulp', range: '>=3.9.1 <4.0.0', hasData: false }
+67 silly mapToRegistry name gulp
+68 silly mapToRegistry using default registry
+69 silly mapToRegistry registry https://registry.npmjs.org/
+70 silly mapToRegistry data Result {
+70 silly mapToRegistry   raw: 'gulp',
+70 silly mapToRegistry   scope: null,
+70 silly mapToRegistry   escapedName: 'gulp',
+70 silly mapToRegistry   name: 'gulp',
+70 silly mapToRegistry   rawSpec: '',
+70 silly mapToRegistry   spec: 'latest',
+70 silly mapToRegistry   type: 'tag' }
+71 silly mapToRegistry uri https://registry.npmjs.org/gulp
+72 verbose addNameRange registry:https://registry.npmjs.org/gulp not in flight; fetching
+73 verbose get https://registry.npmjs.org/gulp not expired, no request
+74 silly addNameRange number 2 { name: 'gulp', range: '>=3.9.1 <4.0.0', hasData: true }
+75 silly addNameRange versions [ 'gulp',
+75 silly addNameRange   [ '0.0.1',
+75 silly addNameRange     '0.0.2',
+75 silly addNameRange     '0.0.3',
+75 silly addNameRange     '0.0.4',
+75 silly addNameRange     '0.0.5',
+75 silly addNameRange     '0.0.7',
+75 silly addNameRange     '0.0.8',
+75 silly addNameRange     '0.0.9',
+75 silly addNameRange     '0.1.0',
+75 silly addNameRange     '0.2.0',
+75 silly addNameRange     '1.0.0',
+75 silly addNameRange     '1.1.0',
+75 silly addNameRange     '1.2.0',
+75 silly addNameRange     '1.2.1',
+75 silly addNameRange     '2.0.0',
+75 silly addNameRange     '2.0.1',
+75 silly addNameRange     '2.1.0',
+75 silly addNameRange     '2.2.0',
+75 silly addNameRange     '2.3.0',
+75 silly addNameRange     '2.4.0',
+75 silly addNameRange     '2.4.1',
+75 silly addNameRange     '2.6.0',
+75 silly addNameRange     '2.6.1',
+75 silly addNameRange     '2.7.0',
+75 silly addNameRange     '3.0.0',
+75 silly addNameRange     '3.1.1',
+75 silly addNameRange     '3.1.2',
+75 silly addNameRange     '3.1.3',
+75 silly addNameRange     '3.1.4',
+75 silly addNameRange     '3.2.0',
+75 silly addNameRange     '3.2.1',
+75 silly addNameRange     '3.2.2',
+75 silly addNameRange     '3.2.3',
+75 silly addNameRange     '3.2.4',
+75 silly addNameRange     '3.2.5',
+75 silly addNameRange     '3.3.0',
+75 silly addNameRange     '3.3.1',
+75 silly addNameRange     '3.3.2',
+75 silly addNameRange     '3.3.4',
+75 silly addNameRange     '3.4.0',
+75 silly addNameRange     '3.5.0',
+75 silly addNameRange     '3.5.1',
+75 silly addNameRange     '3.5.2',
+75 silly addNameRange     '3.5.5',
+75 silly addNameRange     '3.5.6',
+75 silly addNameRange     '3.6.0',
+75 silly addNameRange     '3.6.1',
+75 silly addNameRange     '3.6.2',
+75 silly addNameRange     '3.7.0',
+75 silly addNameRange     '3.8.0',
+75 silly addNameRange     '3.8.1',
+75 silly addNameRange     '3.8.2',
+75 silly addNameRange     '3.8.3',
+75 silly addNameRange     '3.8.4',
+75 silly addNameRange     '3.8.5',
+75 silly addNameRange     '3.8.6',
+75 silly addNameRange     '3.8.7',
+75 silly addNameRange     '3.8.8',
+75 silly addNameRange     '3.8.9',
+75 silly addNameRange     '3.8.10',
+75 silly addNameRange     '3.8.11',
+75 silly addNameRange     '3.9.0',
+75 silly addNameRange     '3.9.1' ] ]
+76 silly addNamed gulp@3.9.1
+77 verbose addNamed "3.9.1" is a plain semver version for gulp
+78 silly cache afterAdd gulp@3.9.1
+79 verbose afterAdd C:\Users\guilherme.trentini\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json not in flight; writing
+80 verbose correctMkdir C:\Users\guilherme.trentini\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+81 verbose afterAdd C:\Users\guilherme.trentini\AppData\Roaming\npm-cache\gulp\3.9.1\package\package.json written
+82 silly rollbackFailedOptional Starting
+83 silly rollbackFailedOptional Finishing
+84 silly runTopLevelLifecycles Finishing
+85 silly install printInstalled
+86 verbose stack Error: tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy-matriz.sp01.local proxy-matriz.sp01.local:8080
+86 verbose stack     at ClientRequest.onError (C:\Program Files\nodejs\node_modules\npm\node_modules\request\node_modules\tunnel-agent\index.js:176:17)
+86 verbose stack     at ClientRequest.g (events.js:292:16)
+86 verbose stack     at emitOne (events.js:96:13)
+86 verbose stack     at ClientRequest.emit (events.js:188:7)
+86 verbose stack     at Socket.socketErrorListener (_http_client.js:309:9)
+86 verbose stack     at emitOne (events.js:96:13)
+86 verbose stack     at Socket.emit (events.js:188:7)
+86 verbose stack     at connectErrorNT (net.js:1021:8)
+86 verbose stack     at _combinedTickCallback (internal/process/next_tick.js:80:11)
+86 verbose stack     at process._tickCallback (internal/process/next_tick.js:104:9)
+87 verbose cwd C:\Users\guilherme.trentini\Desktop\BACKUP GERAL\PROJETO BYFE\Projetos\ByFe\byfe
+88 error Windows_NT 6.1.7601
+89 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install"
+90 error node v6.11.0
+91 error npm  v3.10.10
+92 error code ECONNRESET
+93 error network tunneling socket could not be established, cause=getaddrinfo ENOTFOUND proxy-matriz.sp01.local proxy-matriz.sp01.local:8080
+94 error network This is most likely not a problem with npm itself
+94 error network and is related to network connectivity.
+94 error network In most cases you are behind a proxy or have bad network settings.
+94 error network
+94 error network If you are behind a proxy, please make sure that the
+94 error network 'proxy' config is set properly.  See: 'npm help config'
+95 verbose exit [ 1, true ]
