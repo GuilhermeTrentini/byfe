@@ -1,272 +1,210 @@
 <!DOCTYPE html>
-<html lang="pt-br">
+<html>
 <head>
-<title>Lembranças</title>
-<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-<meta name = "format-detection" content = "telephone=no" />
-<link rel="icon" href="images/favicon.ico">
-<link rel="shortcut icon" href="images/favicon.ico" />
-<link rel="stylesheet" href="css/stuck.css">
-<link rel="stylesheet" href="css/style.css">
-<link rel="stylesheet" href="css/touchTouch.css">
-
-<!--[if lt IE 9]>
- <div style=' clear: both; text-align:center; position: relative;'>
-   <a href="http://windows.microsoft.com/en-US/internet-explorer/products/ie/home?ocid=ie6_countdown_bannercode">
-     <img src="http://storage.ie6countdown.com/assets/100/images/banners/warning_bar_0000_us.jpg" border="0" height="42" width="820" alt="You are using an outdated browser. For a faster, safer browsing experience, upgrade for free today." />
-   </a>
-</div>
-<script src="js/html5shiv.js"></script>
-<link rel="stylesheet" media="screen" href="css/ie.css">
-
-
-<![endif]-->
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>ByFe</title>
+	<link rel="stylesheet" type="text/css" href="components/bootstrap/dist/css/bootstrap.min.css">
+	<link rel="stylesheet" type="text/css" href="components/font-awesome/css/font-awesome.min.css">	
+	<link rel="stylesheet" type="text/css" href="custom.css">
 </head>
-
 <body>
-<!--==============================
-              header
-=================================-->
-<header>
-<!--==============================
-            Stuck menu
-=================================-->
-  <section id="stuck_container">
-    <div class="container">
-      <div class="row">
-        <div class="grid_12">
-        <h1>
-          <a href="index.html">
-            <img src="images/logo.png" alt="Logo alt">
-          </a>
-        </h1>  
-          <div class="navigation ">
-            <nav>
-              <ul class="sf-menu">
-               <li><a href="index.html">Inicio</a></li>
-               <li><a href="cestas.html">Cestas</a></li>
-			   <li class="current"><a href="lembrancas.html">Lembranças</a></li>
-               <li><a href="convites.html">Convites</a></li>
-               <li><a href="contato.html">Contato</a></li>
-             </ul>
-            </nav>        
-            <div class="clear"></div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section> 
-</header>        
 
-<!--=====================
-          Content
-======================-->
-<section class="content gallery pad1"><div class="ic"></div>
-  <div class="container">
-    <div class="row">
-      <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_9" class="gall_item"><img src="" alt="" id="lembranca_9" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_9"><a href="#">Lembrança 1</a></div>
-            <div id="lembranca_description_9">...</div>
+	<nav class="navbar navbar-inverse navbar-fixed-top">
+		<div class="container-fluid">
+			<div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#menu" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		      <a class="navbar-brand" href="index.html">
+		      	<img src="img/logo.png" class="logo">
+		      </a>
+		    </div>
+
+			<div class="collapse navbar-collapse" id="menu">
+	      		<ul class="nav navbar-nav navbar-right">
+			        <li><a href="index.html">Inicio <span class="sr-only">(current)</span></a></li>		       
+			        <li><a href="cestas.html">Cestas</a></li>		       
+			        <li><a href="lembrancas.html">Lembranças</a></li>		       
+			        <li class="active"><a href="convites.html">Convites</a></li>
+					<li><a href="contato.html">Contato</a></li>
+			    </ul>
+	      	</div>
+      	</div>
+	</nav>
+	
+	<script src="components/jquery/dist//jquery.min.js"></script>
+	<script src="components/bootstrap/dist/js/bootstrap.min.js"></script>
+
+	<div class="container" style="margin-top: 50px">
+		<div class="row">
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_9">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
+			</div>	
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_10">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-      <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_10" class="gall_item"><img src="" alt="" id="lembranca_10" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_10"><a href="#">Lembrança 2</a></div>
-            <div id="lembranca_description_10">...</div>
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_11">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-	  <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_11" class="gall_item"><img src="" alt="" id="lembranca_11" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_11"><a href="#">Lembrança 3</a></div>
-            <div id="lembranca_description_11">...</div>
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_12">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-      <div class="clear sep__1"></div>	  
-      <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_12" class="gall_item"><img src="" alt="" id="lembranca_12" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_12"><a href="#">Lembrança 4</a></div>
-            <div id="lembranca_description_12">...</div>
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_13">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-      <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_13" class="gall_item"><img src="" alt="" id="lembranca_13" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_13"><a href="#">Lembrança 5</a></div>
-            <div id="lembranca_description_13">...</div>
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_14">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-	  <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_14" class="gall_item"><img src="" alt="" id="lembranca_14" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_14"><a href="#">Lembrança 6</a></div>
-            <div id="lembranca_description_14">...</div>
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_15">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-      <div class="clear sep__1"></div>
-      <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_15" class="gall_item"><img src="" alt="" id="lembranca_15" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_15"><a href="#">Lembrança 7</a></div>
-            <div id="lembranca_description_15">...</div> 
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_16">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-      <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_16" class="gall_item"><img src="" alt="" id="lembranca_16" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_16"><a href="#">Lembrança 8</a></div>
-            <div id="lembranca_description_16">...</div>
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_17">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-	  <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_17" class="gall_item"><img src="" alt="" id="lembranca_17" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_17"><a href="#">Lembrança 9</a></div>
-            <div id="lembranca_description_17">...</div>
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_18">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-      <div class="clear sep__1"></div>	
-	  <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_18" class="gall_item"><img src="" alt="" id="lembranca_18" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_18"><a href="#">Lembrança 10</a></div>
-            <div id="lembranca_description_18">...</div>
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_19">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-      <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_19" class="gall_item"><img src="" alt="" id="lembranca_19" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_19"><a href="#">Lembrança 11</a></div>
-            <div id="lembranca_description_19">...</div>
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_20">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-      <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_20" class="gall_item"><img src="" alt="" id="lembranca_20" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_20"><a href="#">Lembrança 12</a></div>
-            <div id="lembranca_description_20">...</div>
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_21">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-      <div class="clear sep__1"></div>
-	  <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_21" class="gall_item"><img src="" alt="" id="lembranca_21" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_21"><a href="#">Lembrança 13</a></div>
-            <div id="lembranca_description_21">...</div>
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_22">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-      <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_22" class="gall_item"><img src="" alt="" id="lembranca_22" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_22"><a href="#">Lembrança 14</a></div>
-            <div id="lembranca_description_22">...</div>
+			<div class="col-md-4">
+				<div class="card">							
+					<img src="http://lorempixel.com/400/200/">
+					<div class="card-text">
+						<h3 id="lembranca_title_23">Descrição</h3>					
+						<hr>
+						<!--small>TesteTesteTesteTesteTesteTesteTeste.</small-->
+					</div>
+				</div>
 			</div>
-          </div>
-        </div>
-      </div>
-      <div class="grid_4">
-        <div class="gall_block">
-          <div class="maxheight">
-            <a href="#" id="lembranca_zoom_23" class="gall_item"><img src="" alt="" id="lembranca_23" height="265" width="368"></a>
-            <div class="gall_bot">
-            <div class="text1" id="lembranca_title_23"><a href="#">Lembrança 15</a></div>
-            <div id="lembranca_description_23">...</div>
-			</div>
-          </div>
-        </div>
-      </div>
-      <div class="clear sep__1"></div>
-    </div>
-  </div>
-</section>
-<!--==============================
-              footer
-=================================-->
-<footer id="footer">
-  <div class="container">
-    <div class="row">
-      <div class="grid_12">  
-        <div class="socials">
-          <a href="#" class="fa fa-twitter"></a>
-          <a href="https://www.facebook.com/byfecestas/"target="_blank" class="fa fa-facebook"></a>
-          <a href="#" class="fa fa-google-plus"></a>
-          <a href="#" class="fa fa-pinterest"></a>
-        </div>
-        <div class="copyright"><span class="brand">Bliss </span> &copy; <span id="copyright-year"></span> | <a href="#">Privacy Policy</a> <div>Website designed by <a href="http://www.templatemonster.com/" rel="nofollow">TemplateMonster.com</a></div>
-        </div>
-      </div>
-    </div>
-  </div> 
-</footer> 
-<script src="js/jquery.js"></script>
-<script src="js/jquery-migrate-1.1.1.js"></script>
-<script src="http://123andre321.esy.es/api/api/timm.js"></script>
-<script src="js/script.js"></script> 
-<script src="js/superfish.js"></script>
-<script src="js/jquery.equalheights.js"></script>
-<script src="js/jquery.mobilemenu.js"></script>
-<script src="js/jquery.easing.1.3.js"></script>
-<script src="js/tmStickUp.js"></script>
-<script src="js/jquery.ui.totop.js"></script>
-<script src="js/touchTouch.jquery.js"></script>
+		</div>			
+	</div>
+	
+	<div class="footer">
+		<div class="container">
+			<a href="https://fb.com/byfecestas/?pnref=lhc" target="_blank"><i class="fa fa-facebook-official fa-4x fa-fw"></i></a>
+			<!--a href=""><i class="fa fa-pinterest fa-4x fa-fw"></i></a-->
+
+		</div>
+		<span class="text-muted">
+			ByFe © 2017 | Todos os Direitos Reservados
+		</span>
+	</div>	
 
 <script>
 _OUTH = "d8252f216d62665b658ab45020460ebf";	
